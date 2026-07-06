@@ -1,7 +1,7 @@
 {
-  "name": "深夜許願星空",
-  "short_name": "許願星空",
-  "description": "離線可用的療癒許願星空日記",
+  "name": "Midnight Wishing Sky｜深夜許願星空",
+  "short_name": "Wishing Sky",
+  "description": "Supabase 即時同步的療癒星空日記 PWA",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
