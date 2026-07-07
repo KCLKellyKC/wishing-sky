@@ -1,1 +1,1 @@
-window.MWS_CONFIG={SUPABASE_URL:'https://YOUR_PROJECT_ID.supabase.co',SUPABASE_ANON_KEY:'YOUR_ANON_KEY',REDIRECT_TO:window.location.origin+window.location.pathname};
+window.MWS_CONFIG={SUPABASE_URL:'https://YOUR_PROJECT_ID.supabase.co',SUPABASE_ANON_KEY:'YOUR_PUBLISHABLE_KEY',SUPABASE_PUBLISHABLE_KEY:'YOUR_PUBLISHABLE_KEY',REDIRECT_TO:window.location.origin+window.location.pathname};

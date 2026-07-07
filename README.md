@@ -1,11 +1,13 @@
-# Midnight Wishing Sky 雲端正式版
+# Midnight Wishing Sky 雲端正式版 v2
 
-這版有 Email Magic Link 登入與 Supabase 儲存。
+修正內容：
+- 雨聲 / 風聲 / 海浪改為不同音景層次。
+- 點亮星星後會先立即出現在畫面，再同步 Supabase。
+- 封存選項改為玻璃感按鈕，移除白底下拉選單。
+- 人生星圖與年度回顧整合，加入本月星光日曆與逐日紀錄。
 
-## 使用步驟
-1. 到 Supabase SQL Editor 執行 `supabase_setup.sql`。
-2. 複製 `config.example.js` 內容到 `config.js`，填入 `SUPABASE_URL` 和 `SUPABASE_ANON_KEY`。
-3. 到 Supabase Authentication 設定 Email Provider，並加入你的部署網址到 Redirect URLs。
+使用方式：
+1. 執行 supabase_setup.sql。
+2. 修改 config.js，填入 Supabase URL 與 publishable key。
+3. 設定 Supabase Auth Redirect URL。
 4. 部署整個資料夾。
-
-未填 config.js 時會以本機模式運作；填好後，按右上角「Email 登入」。
